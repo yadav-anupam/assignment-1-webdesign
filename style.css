@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #242424;
+    color: white;
+    font-family: monospace;
+}
+.container {
+    padding: 18px 7px;
+}
+h1 {
+    font-size: 46px;
+    margin: 0 0 20px 0;
+    text-align: center;
+}
+hr {
+    border: none;
+    border-top: 2px solid white;
+    margin: 0 0 25px 0;
+    width: 92%;
+}
+nav {
+    display: flex;
+    gap: 35px;
+    flex-wrap: wrap;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+}
+nav a:hover {
+    text-decoration: underline;
+    text-align: center;
+}
